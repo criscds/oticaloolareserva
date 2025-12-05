@@ -75,16 +75,25 @@ body {
   background-color: #f3e3d0;
 }
 
-.produto-section {
+
+.cachorro-section {
   padding: 60px 20px;
   background-color: #f1f1f1;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
 
-.produto-section h2 {
+h2 {
   text-align: center;
   margin-bottom: 30px;
   color: #d0810ca5;
 }
+
+
 
 .produtos {
   display: flex;
